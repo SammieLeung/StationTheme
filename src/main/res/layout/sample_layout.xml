@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:theme="@style/StationTheme">
+
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="确认" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="100" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="200" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="300" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="400" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="500" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="600" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="700" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="800" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/alibabapuhuiti_2"
+    android:text="阿里巴巴普惠体"
+    android:textColor="@android:color/black"
+    android:textFontWeight="900" />
+
+</LinearLayout>

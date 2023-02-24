@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <shape>
+      <corners android:radius="?attr/station_3d_button_radius" />
+      <solid android:color="?attr/station_3d_button_disable_background_start_color" />
+    </shape>
+  </item>
+</layer-list>
