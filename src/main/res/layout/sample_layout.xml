@@ -82,5 +82,9 @@
     android:text="阿里巴巴普惠体"
     android:textColor="@android:color/black"
     android:textFontWeight="900" />
-
+  <TextView
+    style="@style/station_prompt_window"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="text"/>
 </LinearLayout>

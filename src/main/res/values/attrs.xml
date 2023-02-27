@@ -2,7 +2,7 @@
 <resources>
   <declare-styleable name="StationTheme">
     <!--    指定立体按钮的圆角-->
-    <attr name="station_3d_button_radius" format="dimension" />
+    <attr name="station_corner_radius" format="dimension" />
     <!--    指定立体按钮的背景颜色-->
     <attr name="station_3d_button_normal_background_start_color" format="color" />
     <!--    指定立体按钮的背景不可用颜色-->

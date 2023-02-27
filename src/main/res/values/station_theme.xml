@@ -2,7 +2,7 @@
 <resources>
   <!--  直接继承StationTheme对属性进行修改即可-->
   <style name="StationTheme.Test" parent="StationTheme">
-    <item name="station_3d_button_radius">20dp</item>
+    <item name="station_corner_radius">20dp</item>
     <item name="station_3d_button_normal_background_start_color">#FFFFFF</item>
   </style>
 
@@ -13,7 +13,7 @@
   </style>
 
   <style name="BaseTheme" parent="Theme.Design.NoActionBar">
-    <item name="station_3d_button_radius">@dimen/station_3d_button_default_radius</item>
+    <item name="station_corner_radius">@dimen/station_3d_button_default_radius</item>
     <item name="station_3d_button_normal_background_start_color">
       @color/station_3d_button_normal_color
     </item>
