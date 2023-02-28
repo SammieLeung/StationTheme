@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <dimen name="station_3d_button_default_radius">8dp</dimen>
+  <dimen name="dialog_background_default_radius">15dp</dimen>
 
 </resources>

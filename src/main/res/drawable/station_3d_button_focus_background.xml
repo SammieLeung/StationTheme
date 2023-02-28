@@ -2,11 +2,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
   <item>
     <shape>
-      <corners android:radius="?attr/station_corner_radius" />
+      <corners android:radius="?attr/station3dBtnCornerRadius" />
       <gradient
         android:angle="90"
-        android:endColor="?attr/station_3d_button_focus_background_end_color"
-        android:startColor="?attr/station_3d_button_focus_background_start_color" />
+        android:endColor="?attr/station3dButtonFocusEndColor"
+        android:startColor="?attr/station3dButtonFocusStartColor" />
     </shape>
   </item>
 </layer-list>

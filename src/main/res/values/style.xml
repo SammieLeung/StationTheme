@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="station_3d_button" parent="Widget.AppCompat.Button">
+  <style name="Station"/>
+  <style name="Station.Widget"/>
+
+  <style name="Station.Widget.3D.Button" parent="Widget.AppCompat.Button">
     <item name="android:minHeight">53dp</item>
     <item name="android:minWidth">195dp</item>
+    <item name="android:textFontWeight">300</item>
     <item name="android:background">@drawable/station_3d_button_background</item>
   </style>
-  
-  <style name="station_prompt_window" >
+
+  <style name="Station.Widget.PromptWindow" parent="StationTheme">
     <item name="android:background">@drawable/station_prompt_window_background</item>
-    <item name="android:textColor">#FFCCCCCC</item>
     <item name="android:textSize">17sp</item>
     <item name="android:textFontWeight">300</item>
     <item name="android:gravity">center</item>
@@ -16,7 +19,6 @@
     <item name="android:paddingBottom">18dp</item>
     <item name="android:paddingStart">20dp</item>
     <item name="android:paddingRight">20dp</item>
-    <item name="colorSecondary">#FF634EB7</item>
-
   </style>
+
 </resources>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <color name="main_background_color">#FF1C2232</color>
+  <color name="main_text_color">@android:color/white</color>
+
+  <color name="dialog_background_color">#FF1A232C</color>
+  <color name="prompt_window_background_color">#82000000</color>
+
+
   <color name="station_3d_button_focus_start_color" >#6048BE</color>
   <color name="station_3d_button_focus_end_color" >#9C85F2</color>
   <color name="station_3d_button_press_start_color" >#42327E</color>
   <color name="station_3d_button_press_end_color" >#876AFF</color>
-
   <color name="station_3d_button_disable_color" >#989898</color>
-  <color name="station_3d_button_normal_color" >#FF282842</color>
+  <color name="station_3d_button_normal_color" >#FF323254</color>
 
 </resources>

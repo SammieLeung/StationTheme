@@ -2,18 +2,27 @@
 <resources>
   <declare-styleable name="StationTheme">
     <!--    指定立体按钮的圆角-->
-    <attr name="station_corner_radius" format="dimension" />
-    <!--    指定立体按钮的背景颜色-->
-    <attr name="station_3d_button_normal_background_start_color" format="color" />
-    <!--    指定立体按钮的背景不可用颜色-->
-    <attr name="station_3d_button_disable_background_start_color" format="color" />
-    <!--    指定立体按钮的背景起始颜色-->
-    <attr name="station_3d_button_focus_background_start_color" format="color" />
-    <!--    指定立体按钮的背景结束颜色-->
-    <attr name="station_3d_button_focus_background_end_color" format="color" />
-    <!--    指定立体按钮的背景起始颜色-->
-    <attr name="station_3d_button_press_background_start_color" format="color" />
-    <!--    指定立体按钮的背景结束颜色-->
-    <attr name="station_3d_button_press_background_end_color" format="color" />
+    <attr name="station3dBtnCornerRadius" format="dimension" />
+    <!--    弹窗背景圆角-->
+    <attr name="stationDialogCornerRadius" format="dimension" />
+    <!--    默认文字颜色-->
+    <attr name="stationTextColor" format="color|reference" />
+    <!--    立体按钮的背景颜色-->
+    <attr name="station3dButtonNormalColor" format="color|reference" />
+    <!--    立体按钮的背景不可用颜色-->
+    <attr name="station3dButtonDisableColor" format="color|reference" />
+    <!--    立体按钮的背景起始颜色-->
+    <attr name="station3dButtonFocusStartColor" format="color" />
+    <!--    立体按钮的背景结束颜色-->
+    <attr name="station3dButtonFocusEndColor" format="color" />
+    <!--    立体按钮的背景起始颜色-->
+    <attr name="station3dButtonPressStartColor" format="color" />
+    <!--    立体按钮的背景结束颜色-->
+    <attr name="station3dButtonPressEndColor" format="color" />
+    <!--    弹窗背景颜色-->
+    <attr name="stationDialogColor" format="color|reference" />
+    <!--    操作提示弹窗颜色-->
+    <attr name="stationPromptWindowColor" format="color|reference" />
+
   </declare-styleable>
 </resources>
