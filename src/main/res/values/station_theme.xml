@@ -7,6 +7,8 @@
 
   <style name="Base.Station.Light">
     <item name="stationTextColor">@color/main_text_color</item>
+    <item name="stationButtonTextColor">@color/station_button_text_color</item>
+    <item name="stationButtonDisableTextColor">@color/station_button_disable_text_color</item>
     <item name="station3dButtonDisableColor">@color/station_3d_button_disable_color</item>
     <item name="station3dButtonNormalColor">@color/station_3d_button_normal_color</item>
     <item name="station3dButtonFocusStartColor">@color/station_3d_button_focus_start_color</item>
@@ -15,12 +17,21 @@
     <item name="station3dButtonPressEndColor">@color/station_3d_button_press_end_color</item>
     <item name="stationDialogColor">@color/dialog_background_color</item>
     <item name="stationPromptWindowColor">@color/prompt_window_background_color</item>
+    <item name="stationEditTextNormalColor">@color/station_edittext_normal_color</item>
+    <item name="stationEditTextFocusBorderColor">@color/station_edittext_focus_border_color</item>
+    <item name="stationEditTextDisableColor">@color/station_edittext_disable_color</item>
+    <item name="stationEditTextNormalTextColor">@color/station_edittext_normal_text_color</item>
+    <item name="stationEditTextDisableTextColor">@color/station_edittext_disable_text_color</item>
+    <item name="stationEditTextTextColorHint">@color/station_edittext_text_color_hint</item>
+    <item name="stationEditTextDisableTextColorHint">@color/station_edittext_disable_text_color_hint</item>
   </style>
 
   <style name="StationTheme" parent="Base.Station.Light">
     <item name="stationDialogCornerRadius">@dimen/dialog_background_default_radius</item>
     <item name="station3dBtnCornerRadius">@dimen/station_3d_button_default_radius</item>
+    <item name="stationEditTextCornerRadius">@dimen/station_edittext_default_radius</item>
     <item name="android:buttonStyle">@style/Station.Widget.3D.Button</item>
+    <item name="android:editTextStyle">@style/Station.Widget.EditText</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
   </style>
 

@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <style name="Station"/>
-  <style name="Station.Widget"/>
+
+  <style name="Station" />
+
+  <style name="Station.Widget" />
 
   <style name="Station.Widget.3D.Button" parent="Widget.AppCompat.Button">
+    <item name="android:textSize">@dimen/t1</item>
     <item name="android:minHeight">53dp</item>
     <item name="android:minWidth">195dp</item>
     <item name="android:textFontWeight">300</item>
+    <item name="android:textColor">@drawable/station_button_text_color</item>
     <item name="android:background">@drawable/station_3d_button_background</item>
+  </style>
+
+  <style name="Station.Widget.EditText" parent="Widget.AppCompat.EditText">
+    <item name="android:background">@drawable/station_edittext_background</item>
+    <item name="android:minHeight">60dp</item>
+    <item name="android:paddingStart">28dp</item>
+    <item name="android:paddingEnd">28dp</item>
+    <item name="android:textColorHint">@drawable/station_edittext_text_color_hint</item>
+    <item name="android:textColor">@drawable/station_edittext_text_color</item>
+    <item name="android:textSize">@dimen/t1</item>
   </style>
 
   <style name="Station.Widget.PromptWindow" parent="StationTheme">

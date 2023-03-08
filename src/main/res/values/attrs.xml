@@ -1,28 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <declare-styleable name="StationTheme">
-    <!--    指定立体按钮的圆角-->
-    <attr name="station3dBtnCornerRadius" format="dimension" />
-    <!--    弹窗背景圆角-->
-    <attr name="stationDialogCornerRadius" format="dimension" />
     <!--    默认文字颜色-->
     <attr name="stationTextColor" format="color|reference" />
-    <!--    立体按钮的背景颜色-->
-    <attr name="station3dButtonNormalColor" format="color|reference" />
-    <!--    立体按钮的背景不可用颜色-->
-    <attr name="station3dButtonDisableColor" format="color|reference" />
-    <!--    立体按钮的背景起始颜色-->
-    <attr name="station3dButtonFocusStartColor" format="color" />
-    <!--    立体按钮的背景结束颜色-->
-    <attr name="station3dButtonFocusEndColor" format="color" />
-    <!--    立体按钮的背景起始颜色-->
-    <attr name="station3dButtonPressStartColor" format="color" />
-    <!--    立体按钮的背景结束颜色-->
-    <attr name="station3dButtonPressEndColor" format="color" />
-    <!--    弹窗背景颜色-->
+
+    <!--#### Dialog ####-->
+    <!--    背景圆角-->
+    <attr name="stationDialogCornerRadius" format="dimension" />
+    <!--    背景颜色-->
     <attr name="stationDialogColor" format="color|reference" />
-    <!--    操作提示弹窗颜色-->
+    <!--########-->
+
+    <!--###### Button ######-->
+    <attr name="stationButtonTextColor" format="color" />
+    <attr name="stationButtonDisableTextColor" format="color" />
+    <!--#### 3D Button ####-->
+    <!--    默认-->
+    <attr name="station3dButtonNormalColor" format="color|reference" />
+    <!--    不可用-->
+    <attr name="station3dButtonDisableColor" format="color|reference" />
+    <!--    焦点起始-->
+    <attr name="station3dButtonFocusStartColor" format="color" />
+    <!--    焦点结束-->
+    <attr name="station3dButtonFocusEndColor" format="color" />
+    <!--    按下起始-->
+    <attr name="station3dButtonPressStartColor" format="color" />
+    <!--    按下结束-->
+    <attr name="station3dButtonPressEndColor" format="color" />
+    <!--    立体按钮的圆角-->
+    <attr name="station3dBtnCornerRadius" format="dimension" />
+    <!--########-->
+    <!--############-->
+
+    <!--#### Prompt Window ####-->
     <attr name="stationPromptWindowColor" format="color|reference" />
+
+    <!--#### EditText ####-->
+    <!--    圆角-->
+    <attr name="stationEditTextCornerRadius" format="dimension" />
+    <!--##背景##-->
+    <!--    默认-->
+    <attr name="stationEditTextNormalColor" format="color|reference" />
+    <!--    焦点描边-->
+    <attr name="stationEditTextFocusBorderColor" format="color|reference" />
+    <!--    不可用-->
+    <attr name="stationEditTextDisableColor" format="color|reference" />
+    <!--    ####-->
+    <!--    文字颜色-->
+    <attr name="stationEditTextNormalTextColor" format="color" />
+    <attr name="stationEditTextDisableTextColor" format="color" />
+
+    <!--    提示文字颜色-->
+    <attr name="stationEditTextTextColorHint" format="color" />
+    <attr name="stationEditTextDisableTextColorHint" format="color" />
+    <!--    ########-->
+
 
   </declare-styleable>
 </resources>

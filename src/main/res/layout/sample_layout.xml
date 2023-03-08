@@ -3,75 +3,88 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
-  android:background="@color/main_background_color"
+  android:background="#7A000000"
+  android:gravity="center"
   android:theme="@style/StationTheme">
 
   <Button
+    android:layout_marginBottom="10dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="确认" />
+
+  <EditText
+    android:layout_marginBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="hint" />
+  <EditText
+    android:enabled="false"
+    android:layout_marginBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="不可用hint" />
+  <EditText
+    android:enabled="false"
+    android:text="不可用正文"
+    android:layout_marginBottom="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="100" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="200" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="300" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="400" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
+
     android:text="阿里巴巴普惠体"
     android:textFontWeight="500" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="600" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="700" />
 
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="800" />
 
   <TextView
+    android:layout_marginBottom="10dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:fontFamily="@font/alibaba_puhuiti_2"
     android:text="阿里巴巴普惠体"
     android:textFontWeight="900" />
 
@@ -79,6 +92,6 @@
     style="@style/Station.Widget.PromptWindow"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="text" />
+    android:text="提示弹窗背景" />
 
 </LinearLayout>
