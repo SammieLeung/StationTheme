@@ -15,6 +15,7 @@
   </style>
 
   <style name="Station.Widget.EditText" parent="Widget.AppCompat.EditText">
+    <item name="android:textCursorDrawable">@drawable/station_text_cursor</item>
     <item name="android:background">@drawable/station_edittext_background</item>
     <item name="android:minHeight">60dp</item>
     <item name="android:paddingStart">28dp</item>
@@ -26,7 +27,7 @@
 
   <style name="Station.Widget.PromptWindow" parent="StationTheme">
     <item name="android:background">@drawable/station_prompt_window_background</item>
-    <item name="android:textSize">17sp</item>
+    <item name="android:textSize">@dimen/t4</item>
     <item name="android:textFontWeight">300</item>
     <item name="android:gravity">center</item>
     <item name="android:paddingTop">18dp</item>

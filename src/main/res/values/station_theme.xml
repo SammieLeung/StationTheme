@@ -33,6 +33,7 @@
     <item name="android:buttonStyle">@style/Station.Widget.3D.Button</item>
     <item name="android:editTextStyle">@style/Station.Widget.EditText</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
+    <item name="android:textSize">@dimen/t1</item>
   </style>
 
   <!--  直接继承StationTheme对属性进行修改即可-->

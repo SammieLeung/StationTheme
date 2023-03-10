@@ -11,9 +11,9 @@
   <!--  重要文字详情文字描述内容-->
   <dimen name="t2">21sp</dimen>
   <!--  次要文字详情文字描述内容-->
-  <dimen name="t3">19.5sp</dimen>
+  <dimen name="t3">19sp</dimen>
   <!--  标签文字内容、最小文字-->
-  <dimen name="t4">16.5sp</dimen>
+  <dimen name="t4">17sp</dimen>
 
   <dimen name="station_3d_button_default_radius">8dp</dimen>
   <dimen name="station_edittext_default_radius">8dp</dimen>
