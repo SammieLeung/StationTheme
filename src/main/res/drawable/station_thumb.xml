@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_enabled="false">
+    <layer-list>
+      <item android:width="33dp" android:height="33dp">
+        <shape>
+          <solid />
+        </shape>
+      </item>
+      <item android:width="26dp" android:height="26dp" android:drawable="@drawable/thumb_state_disable" android:gravity="center" />
+    </layer-list>
+  </item>
+  <item>
+    <layer-list>
+      <item android:width="33dp" android:height="33dp">
+        <shape>
+          <solid />
+        </shape>
+      </item>
+      <item android:width="26dp" android:height="26dp" android:drawable="@drawable/thumb_state_enable" android:gravity="center" />
+    </layer-list>
+  </item>
+</selector>

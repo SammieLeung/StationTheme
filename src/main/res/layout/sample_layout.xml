@@ -1,97 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:orientation="vertical"
   android:background="#7A000000"
   android:gravity="center"
   android:theme="@style/StationTheme">
 
-  <Button
-    android:layout_marginBottom="10dp"
+  <androidx.appcompat.widget.LinearLayoutCompat
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="确认" />
+    android:gravity="center"
+    android:orientation="vertical">
 
-  <EditText
-    android:layout_marginBottom="10dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:hint="hint" />
-  <EditText
-    android:enabled="false"
-    android:layout_marginBottom="10dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:hint="不可用hint" />
-  <EditText
-    android:enabled="false"
-    android:text="不可用正文"
-    android:layout_marginBottom="10dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    />
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Button" />
 
-  <TextView
+    <androidx.appcompat.widget.AppCompatButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="AppCompatButton" />
+
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:hint="EidtText" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:hint="AppCompatEditText" />
+
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:enabled="false"
+      android:hint="不可用hint" />
+
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:enabled="false"
+      android:text="不可用正文" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="100" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="200" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="300" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="400" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="500" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="600" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="700" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="800" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="阿里巴巴普惠体"
+      android:textFontWeight="900" />
+
+    <TextView
+      style="@style/Station.Widget.PromptWindow"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="提示弹窗背景" />
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+  <androidx.appcompat.widget.LinearLayoutCompat
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="100" />
+    android:layout_marginLeft="100dp"
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="200" />
+    android:orientation="vertical">
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="300" />
+    <androidx.appcompat.widget.SwitchCompat
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:enabled="false"
+      android:text="禁用状态" />
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="400" />
+    <androidx.appcompat.widget.SwitchCompat
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="SwitchCompat" />
 
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="500" />
-
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="600" />
-
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="700" />
-
-  <TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="800" />
-
-  <TextView
-    android:layout_marginBottom="10dp"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="阿里巴巴普惠体"
-    android:textFontWeight="900" />
-
-  <TextView
-    style="@style/Station.Widget.PromptWindow"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="提示弹窗背景" />
-
+    <Switch
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Switch" />
+  </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>

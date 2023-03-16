@@ -55,6 +55,21 @@
     <attr name="stationEditTextDisableTextColorHint" format="color" />
     <!--    ########-->
 
-
+    <!--    ####滑动开关####-->
+    <!--    ##开关##-->
+    <!--    正常-->
+    <attr name="stationThumbColor" format="color" />
+    <!--    开关不可用-->
+    <attr name="stationThumbDisableColor" format="color" />
+    <!--    ##轨道##-->
+    <!--    焦点边界-->
+    <attr name="stationTrackFocusBorderColor" format="color" />
+    <!--    关闭-->
+    <attr name="stationTrackOffColor" format="color" />
+    <!--    开启-->
+    <attr name="stationTrackOnColor" format="color" />
+    <!--    不可用-->
+    <attr name="stationTrackDisableColor" format="color" />
+    <!--    ########-->
   </declare-styleable>
 </resources>

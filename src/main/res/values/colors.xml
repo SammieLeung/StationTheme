@@ -42,5 +42,11 @@
   <color name="station_edittext_focus_border_color">@color/main_focus</color>
   <color name="station_edittext_disable_color">#232936</color>
 
+  <color name="station_thumb_color">@android:color/white</color>
+  <color name="station_thumb_disable_color">#80FFFFFF</color>
+  <color name="station_track_off_color">#FF282842</color>
+  <color name="station_track_on_color">#FF96428D</color>
+  <color name="station_track_disable_color">#FF474765</color>
+  <color name="station_track_focus_border_color">@android:color/white</color>
 
 </resources>
