@@ -3,20 +3,34 @@
   <!--  主题-->
   <style name="Base.Station" parent="Theme.Design.NoActionBar">
     <item name="android:textColor">?attr/stationTextColor</item>
+    <item name="android:listChoiceBackgroundIndicator">@drawable/station_spinner_dropdown_selector</item>
+
+    <item name="stationDialogCornerRadius">@dimen/station_dialog_default_radius</item>
+    <item name="station3dBtnCornerRadius">@dimen/station_default_radius</item>
+    <item name="stationPopupWindowCornerRadius">@dimen/station_default_radius</item>
+    <item name="stationEditTextCornerRadius">@dimen/station_default_radius</item>
   </style>
 
   <style name="Base.Station.Light">
     <item name="stationTextColor">@color/main_text_color</item>
     <item name="stationButtonTextColor">@color/station_button_text_color</item>
     <item name="stationButtonDisableTextColor">@color/station_button_disable_text_color</item>
+
+    <item name="stationButtonNormalColor">@color/station_button_normal_color</item>
+    <item name="stationButtonDisableColor">@color/station_button_disable_color</item>
+    <item name="stationButtonFocusColor">@color/station_button_focus_color</item>
+    <item name="stationButtonPressColor">@color/station_button_press_color</item>
+
     <item name="station3dButtonDisableColor">@color/station_3d_button_disable_color</item>
     <item name="station3dButtonNormalColor">@color/station_3d_button_normal_color</item>
     <item name="station3dButtonFocusStartColor">@color/station_3d_button_focus_start_color</item>
     <item name="station3dButtonFocusEndColor">@color/station_3d_button_focus_end_color</item>
     <item name="station3dButtonPressStartColor">@color/station_3d_button_press_start_color</item>
     <item name="station3dButtonPressEndColor">@color/station_3d_button_press_end_color</item>
+
     <item name="stationDialogColor">@color/dialog_background_color</item>
     <item name="stationPromptWindowColor">@color/prompt_window_background_color</item>
+
     <item name="stationEditTextNormalColor">@color/station_edittext_normal_color</item>
     <item name="stationEditTextFocusBorderColor">@color/station_edittext_focus_border_color</item>
     <item name="stationEditTextDisableColor">@color/station_edittext_disable_color</item>
@@ -24,6 +38,7 @@
     <item name="stationEditTextDisableTextColor">@color/station_edittext_disable_text_color</item>
     <item name="stationEditTextTextColorHint">@color/station_edittext_text_color_hint</item>
     <item name="stationEditTextDisableTextColorHint">@color/station_edittext_disable_text_color_hint</item>
+
     <item name="stationThumbColor">@color/station_thumb_color</item>
     <item name="stationThumbDisableColor">@color/station_thumb_disable_color</item>
     <item name="stationTrackDisableColor">@color/station_track_disable_color</item>
@@ -31,24 +46,24 @@
     <item name="stationTrackOnColor">@color/station_track_on_color</item>
     <item name="stationTrackFocusBorderColor">@color/station_track_focus_border_color</item>
   </style>
+  <!--  直接继承StationTheme对属性进行修改即可-->
+  <style name="StationTheme.Compat" parent="Base.Station.Light">
+    <item name="editTextStyle">?android:attr/editTextStyle</item>
+    <item name="switchStyle">?android:attr/switchStyle</item>
+    <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+  </style>
 
-  <style name="StationTheme" parent="Base.Station.Light">
-    <item name="stationDialogCornerRadius">@dimen/dialog_background_default_radius</item>
-    <item name="station3dBtnCornerRadius">@dimen/station_3d_button_default_radius</item>
-    <item name="stationEditTextCornerRadius">@dimen/station_edittext_default_radius</item>
+  <style name="StationTheme" parent="StationTheme.Compat">
     <item name="android:buttonStyle">@style/Station.Widget.3D.Button</item>
     <item name="android:editTextStyle">@style/Station.Widget.EditText</item>
-    <item name="editTextStyle">@style/Station.Widget.EditText</item>
-    <item name="switchStyle">@style/Station.Widget.Switch</item>
+    <item name="android:spinnerStyle">@style/Station.Widget.Spinner</item>
     <item name="android:switchStyle">@style/Station.Widget.Switch</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
     <item name="android:textSize">@dimen/t1</item>
+
   </style>
 
-  <!--  直接继承StationTheme对属性进行修改即可-->
-  <style name="StationTheme.Test" parent="StationTheme">
-    <item name="station3dBtnCornerRadius">20dp</item>
-  </style>
+
 
 
 </resources>

@@ -14,6 +14,11 @@
     <!--###### Button ######-->
     <attr name="stationButtonTextColor" format="color" />
     <attr name="stationButtonDisableTextColor" format="color" />
+    <attr name="stationButtonNormalColor" format="color" />
+    <attr name="stationButtonDisableColor" format="color" />
+    <attr name="stationButtonFocusColor" format="color" />
+    <attr name="stationButtonPressColor" format="color" />
+
     <!--#### 3D Button ####-->
     <!--    默认-->
     <attr name="station3dButtonNormalColor" format="color|reference" />
@@ -71,5 +76,10 @@
     <!--    不可用-->
     <attr name="stationTrackDisableColor" format="color" />
     <!--    ########-->
+
+    <!--    ####Spinner####-->
+    <attr name="stationPopupWindowCornerRadius" format="dimension" />
+    <!--    ########-->
+
   </declare-styleable>
 </resources>

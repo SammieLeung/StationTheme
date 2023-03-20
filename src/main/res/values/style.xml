@@ -14,6 +14,17 @@
     <item name="android:background">@drawable/station_3d_button_background</item>
   </style>
 
+  <style name="Station.Widget.Button" parent="Widget.AppCompat.Button">
+    <item name="android:textSize">@dimen/t1</item>
+    <item name="android:minHeight">53dp</item>
+    <item name="android:minWidth">195dp</item>
+    <item name="android:textFontWeight">300</item>
+    <item name="android:textColor">@drawable/station_button_text_color</item>
+    <item name="android:background">@drawable/station_button_background</item>
+    <item name="android:backgroundTint">@drawable/station_button_background_tint</item>
+
+  </style>
+
   <style name="Station.Widget.EditText" parent="Widget.AppCompat.EditText">
     <item name="android:textCursorDrawable">@drawable/station_text_cursor</item>
     <item name="android:background">@drawable/station_edittext_background</item>
@@ -46,5 +57,34 @@
     <item name="android:showText">false</item>
 
   </style>
+
+  <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">
+    <item name="android:textSize">@dimen/t1</item>
+    <item name="android:minHeight">53dp</item>
+    <item name="android:textFontWeight">300</item>
+    <item name="android:textColor">@drawable/station_button_text_color</item>
+    <item name="android:background">@drawable/station_button_background</item>
+    <item name="android:backgroundTint">@drawable/station_button_background_tint</item>
+    <item name="android:popupBackground">@drawable/station_popup_window_background</item>
+    <item name="android:gravity">center</item>
+
+  </style>
+
+  <style name="Station.Widget.SpinnerItem" >
+    <item name="android:gravity">center</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:drawableTint">@drawable/station_button_text_color</item>
+    <item name="android:drawablePadding">8dp</item>
+    <item name="android:drawableRight">@drawable/icon_dropdown</item>
+  </style>
+
+  <style name="Station.Widget.DropDownItem">
+    <item name="android:textAlignment">center</item>
+    <item name="android:minHeight">53dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+  </style>
+
 
 </resources>

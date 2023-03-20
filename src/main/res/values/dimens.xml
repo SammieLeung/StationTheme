@@ -15,8 +15,7 @@
   <!--  标签文字内容、最小文字-->
   <dimen name="t4">17sp</dimen>
 
-  <dimen name="station_3d_button_default_radius">8dp</dimen>
-  <dimen name="station_edittext_default_radius">8dp</dimen>
-  <dimen name="dialog_background_default_radius">15dp</dimen>
+  <dimen name="station_default_radius">8dp</dimen>
+  <dimen name="station_dialog_default_radius">15dp</dimen>
 
 </resources>

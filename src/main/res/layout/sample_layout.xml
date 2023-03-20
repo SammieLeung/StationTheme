@@ -19,6 +19,13 @@
       android:layout_marginBottom="10dp"
       android:text="Button" />
 
+    <Button
+      style="@style/Station.Widget.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="Button" />
+
     <androidx.appcompat.widget.AppCompatButton
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
@@ -137,6 +144,22 @@
     <Switch
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
       android:text="Switch" />
+
+    <Spinner
+      android:id="@+id/spinner_1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+      android:id="@+id/spinner_2"
+      android:layout_width="200dp"
+      android:layout_height="wrap_content" />
+
+
+
   </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>
