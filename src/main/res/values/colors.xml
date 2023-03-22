@@ -49,4 +49,8 @@
   <color name="station_track_disable_color">#FF474765</color>
   <color name="station_track_focus_border_color">@android:color/white</color>
 
+  <color name="station_img_src_normal_color">#999999</color>
+  <color name="station_img_src_focus_color">#634EB7</color>
+  <color name="station_img_src_press_color">#4C389B</color>
+
 </resources>

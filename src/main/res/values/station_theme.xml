@@ -45,6 +45,11 @@
     <item name="stationTrackOffColor">@color/station_track_off_color</item>
     <item name="stationTrackOnColor">@color/station_track_on_color</item>
     <item name="stationTrackFocusBorderColor">@color/station_track_focus_border_color</item>
+
+    <item name="stationImageSrcNormalColor">@color/station_img_src_normal_color</item>
+    <item name="stationImageSrcFocusColor">@color/station_img_src_focus_color</item>
+    <item name="stationImageSrcPressColor">@color/station_img_src_press_color</item>
+
   </style>
   <!--  直接继承StationTheme对属性进行修改即可-->
   <style name="StationTheme.Compat" parent="Base.Station.Light">
@@ -58,6 +63,7 @@
     <item name="android:editTextStyle">@style/Station.Widget.EditText</item>
     <item name="android:spinnerStyle">@style/Station.Widget.Spinner</item>
     <item name="android:switchStyle">@style/Station.Widget.Switch</item>
+    <item name="android:imageButtonStyle">@style/Station.Widget.ImageButton</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
     <item name="android:textSize">@dimen/t1</item>
 

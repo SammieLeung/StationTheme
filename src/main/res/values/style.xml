@@ -10,7 +10,7 @@
     <item name="android:minHeight">53dp</item>
     <item name="android:minWidth">195dp</item>
     <item name="android:textFontWeight">300</item>
-    <item name="android:textColor">@drawable/station_button_text_color</item>
+    <item name="android:textColor">@color/station_button_text_color_tint</item>
     <item name="android:background">@drawable/station_3d_button_background</item>
   </style>
 
@@ -19,9 +19,9 @@
     <item name="android:minHeight">53dp</item>
     <item name="android:minWidth">195dp</item>
     <item name="android:textFontWeight">300</item>
-    <item name="android:textColor">@drawable/station_button_text_color</item>
+    <item name="android:textColor">@color/station_button_text_color_tint</item>
     <item name="android:background">@drawable/station_button_background</item>
-    <item name="android:backgroundTint">@drawable/station_button_background_tint</item>
+    <item name="android:backgroundTint">@color/station_button_background_tint</item>
 
   </style>
 
@@ -31,8 +31,8 @@
     <item name="android:minHeight">60dp</item>
     <item name="android:paddingStart">28dp</item>
     <item name="android:paddingEnd">28dp</item>
-    <item name="android:textColorHint">@drawable/station_edittext_text_color_hint</item>
-    <item name="android:textColor">@drawable/station_edittext_text_color</item>
+    <item name="android:textColorHint">@color/station_edittext_text_color_hint_tint</item>
+    <item name="android:textColor">@color/station_edittext_text_color_tint</item>
     <item name="android:textSize">@dimen/t1</item>
   </style>
 
@@ -58,13 +58,18 @@
 
   </style>
 
+  <style name="Station.Widget.ImageButton" parent="Widget.AppCompat.ImageButton">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:tint">@color/station_img_src_color_state</item>
+  </style>
+
   <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">
     <item name="android:textSize">@dimen/t1</item>
-    <item name="android:minHeight">53dp</item>
+    <item name="android:minHeight">60dp</item>
     <item name="android:textFontWeight">300</item>
-    <item name="android:textColor">@drawable/station_button_text_color</item>
+    <item name="android:textColor">@color/station_button_text_color_tint</item>
     <item name="android:background">@drawable/station_button_background</item>
-    <item name="android:backgroundTint">@drawable/station_button_background_tint</item>
+    <item name="android:backgroundTint">@color/station_button_background_tint</item>
     <item name="android:popupBackground">@drawable/station_popup_window_background</item>
     <item name="android:gravity">center</item>
 
@@ -74,7 +79,7 @@
     <item name="android:gravity">center</item>
     <item name="android:paddingLeft">15dp</item>
     <item name="android:paddingRight">15dp</item>
-    <item name="android:drawableTint">@drawable/station_button_text_color</item>
+    <item name="android:drawableTint">@color/station_button_text_color_tint</item>
     <item name="android:drawablePadding">8dp</item>
     <item name="android:drawableRight">@drawable/icon_dropdown</item>
   </style>

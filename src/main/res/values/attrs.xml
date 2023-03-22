@@ -81,5 +81,11 @@
     <attr name="stationPopupWindowCornerRadius" format="dimension" />
     <!--    ########-->
 
+    <!--    ####image src####-->
+    <attr name="stationImageSrcPressColor" format="color" />
+    <attr name="stationImageSrcFocusColor" format="color" />
+    <attr name="stationImageSrcNormalColor" format="color" />
+
+    <!--########-->
   </declare-styleable>
 </resources>
