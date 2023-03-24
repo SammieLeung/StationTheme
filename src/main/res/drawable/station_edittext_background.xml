@@ -3,5 +3,5 @@
   <item android:drawable="@drawable/station_edittext_disable_bg" android:state_enabled="false" />
   <item android:drawable="@drawable/station_edittext_focus_bg" android:state_focused="true" />
   <item android:drawable="@drawable/station_edittext_focus_bg" android:state_hovered="true" />
-  <item android:drawable="@drawable/station_edittext_normal_bg" />
+  <item android:drawable="@drawable/station_edittext_default_bg" />
 </selector>

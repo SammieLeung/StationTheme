@@ -2,8 +2,8 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
   <item>
     <shape>
-      <corners android:radius="?attr/station3dBtnCornerRadius" />
-      <solid android:color="?attr/station3dButtonNormalColor" />
+      <corners android:radius="?attr/stationEditTextCornerRadius" />
+      <solid android:color="?attr/stationEditTextDefaultColor" />
     </shape>
   </item>
 </layer-list>

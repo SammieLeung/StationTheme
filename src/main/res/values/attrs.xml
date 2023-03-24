@@ -14,14 +14,14 @@
     <!--###### Button ######-->
     <attr name="stationButtonTextColor" format="color" />
     <attr name="stationButtonDisableTextColor" format="color" />
-    <attr name="stationButtonNormalColor" format="color" />
+    <attr name="stationButtonDefaultColor" format="color" />
     <attr name="stationButtonDisableColor" format="color" />
     <attr name="stationButtonFocusColor" format="color" />
     <attr name="stationButtonPressColor" format="color" />
 
     <!--#### 3D Button ####-->
     <!--    默认-->
-    <attr name="station3dButtonNormalColor" format="color|reference" />
+    <attr name="station3dButtonDefaultColor" format="color|reference" />
     <!--    不可用-->
     <attr name="station3dButtonDisableColor" format="color|reference" />
     <!--    焦点起始-->
@@ -45,14 +45,14 @@
     <attr name="stationEditTextCornerRadius" format="dimension" />
     <!--##背景##-->
     <!--    默认-->
-    <attr name="stationEditTextNormalColor" format="color|reference" />
+    <attr name="stationEditTextDefaultColor" format="color|reference" />
     <!--    焦点描边-->
     <attr name="stationEditTextFocusBorderColor" format="color|reference" />
     <!--    不可用-->
     <attr name="stationEditTextDisableColor" format="color|reference" />
     <!--    ####-->
     <!--    文字颜色-->
-    <attr name="stationEditTextNormalTextColor" format="color" />
+    <attr name="stationEditTextDefaultTextColor" format="color" />
     <attr name="stationEditTextDisableTextColor" format="color" />
 
     <!--    提示文字颜色-->
@@ -84,7 +84,7 @@
     <!--    ####image src####-->
     <attr name="stationImageSrcPressColor" format="color" />
     <attr name="stationImageSrcFocusColor" format="color" />
-    <attr name="stationImageSrcNormalColor" format="color" />
+    <attr name="stationImageSrcDefaultColor" format="color" />
 
     <!--########-->
   </declare-styleable>

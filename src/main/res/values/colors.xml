@@ -3,7 +3,7 @@
   <!--  规范颜色-->
   <color name="main_focus">#634eb7</color>
   <color name="main_press">#4C389B</color>
-  <color name="main_normal">#323254</color>
+  <color name="main_default">#323254</color>
   <color name="main_dialog">#1C2132</color>
 
   <!--  文字规范-->
@@ -25,20 +25,20 @@
   <color name="station_3d_button_focus_end_color">#9C85F2</color>
   <color name="station_3d_button_press_start_color">#42327E</color>
   <color name="station_3d_button_press_end_color">#876AFF</color>
-  <color name="station_3d_button_disable_color">@color/main_normal</color>
-  <color name="station_3d_button_normal_color">@color/main_normal</color>
+  <color name="station_3d_button_disable_color">@color/main_default</color>
+  <color name="station_3d_button_default_color">@color/main_default</color>
 
   <color name="station_button_focus_color">@color/main_focus</color>
   <color name="station_button_press_color">@color/main_press</color>
-  <color name="station_button_disable_color">@color/main_normal</color>
-  <color name="station_button_normal_color">@color/main_normal</color>
+  <color name="station_button_disable_color">@color/main_default</color>
+  <color name="station_button_default_color">@color/main_default</color>
 
   <color name="station_edittext_text_color_hint">#5B606A</color>
   <color name="station_edittext_disable_text_color_hint">#3C424D</color>
-  <color name="station_edittext_normal_text_color">@color/main_text_color</color>
+  <color name="station_edittext_default_text_color">@color/main_text_color</color>
   <color name="station_edittext_disable_text_color">#3C424D</color>
 
-  <color name="station_edittext_normal_color">#333945</color>
+  <color name="station_edittext_default_color">#333945</color>
   <color name="station_edittext_focus_border_color">@color/main_focus</color>
   <color name="station_edittext_disable_color">#232936</color>
 
@@ -49,7 +49,7 @@
   <color name="station_track_disable_color">#FF474765</color>
   <color name="station_track_focus_border_color">@android:color/white</color>
 
-  <color name="station_img_src_normal_color">#999999</color>
+  <color name="station_img_src_default_color">#999999</color>
   <color name="station_img_src_focus_color">#634EB7</color>
   <color name="station_img_src_press_color">#4C389B</color>
 

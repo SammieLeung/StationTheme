@@ -4,5 +4,5 @@
   <item android:color="?attr/stationButtonPressColor" android:state_pressed="true" />
   <item android:color="?attr/stationButtonFocusColor" android:state_focused="true" />
   <item android:color="?attr/stationButtonFocusColor" android:state_hovered="true" />
-  <item android:color="?attr/stationButtonNormalColor" />
+  <item android:color="?attr/stationButtonDefaultColor" />
 </selector>

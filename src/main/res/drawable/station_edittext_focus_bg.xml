@@ -3,7 +3,7 @@
   <item>
     <shape>
       <corners android:radius="?attr/stationEditTextCornerRadius" />
-      <solid android:color="?attr/stationEditTextNormalColor" />
+      <solid android:color="?attr/stationEditTextDefaultColor" />
       <stroke android:color="?attr/stationEditTextFocusBorderColor" android:width="2dp"/>
     </shape>
   </item>
