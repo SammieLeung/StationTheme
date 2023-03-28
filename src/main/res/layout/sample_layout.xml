@@ -162,8 +162,30 @@
       android:layout_height="wrap_content" />
 
     <ImageButton
+      android:layout_marginBottom="20dp"
       android:src="@drawable/icon_dropdown"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content" />
+
+    <com.king.view.circleprogressview.CircleProgressView
+      android:id="@+id/cpv"
+      app:cpvShowTick="false"
+      app:cpvStrokeWidth="8dp"
+      app:cpvLabelTextSize="29sp"
+      app:cpvLabelTextColor="@android:color/white"
+      app:cpvNormalColor="#FF1A232C"
+      app:cpvProgressColor="#96428d"
+      app:cpvProgress="50"
+      app:cpvCirclePadding="0dp"
+      android:layout_marginBottom="20dp"
+      android:layout_width="120dp"
+      android:layout_height="120dp"/>
+
+    <androidx.core.widget.ContentLoadingProgressBar
+      style="@style/Widget.AppCompat.ProgressBar"
+      android:layout_width="120dp"
+      android:layout_height="120dp"/>
+
+
   </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>

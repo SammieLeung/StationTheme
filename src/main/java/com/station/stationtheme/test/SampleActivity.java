@@ -7,6 +7,7 @@ import android.widget.Spinner;
 import androidx.activity.ComponentActivity;
 import androidx.annotation.Nullable;
 
+import com.dinuscxj.progressbar.CircleProgressBar;
 import com.station.stationtheme.R;
 import com.station.stationtheme.spinner.StationSpinnerAdapter;
 
@@ -33,4 +34,5 @@ public class SampleActivity extends ComponentActivity {
         Spinner appCompatSpinner = findViewById(R.id.spinner_2);
         appCompatSpinner.setAdapter(adapter);
     }
+
 }
