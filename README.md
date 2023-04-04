@@ -51,6 +51,6 @@ Station.Widget.SpinnerItem
 
 Station.Widget.DropDownItem
 
-Station.Widget.ProgressBa
+Station.Widget.ProgressBar
 
 
