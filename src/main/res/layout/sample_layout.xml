@@ -181,8 +181,7 @@
       android:layout_width="120dp"
       android:layout_height="120dp"/>
 
-    <androidx.core.widget.ContentLoadingProgressBar
-      style="@style/Widget.AppCompat.ProgressBar"
+    <ProgressBar
       android:layout_width="120dp"
       android:layout_height="120dp"/>
 

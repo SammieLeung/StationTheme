@@ -12,6 +12,7 @@
   </style>
 
   <style name="Base.Station.Light">
+    <item name="android:colorControlActivated">@color/main_focus</item>
     <item name="stationTextColor">@color/main_text_color</item>
     <item name="stationButtonTextColor">@color/station_button_text_color</item>
     <item name="stationButtonDisableTextColor">@color/station_button_disable_text_color</item>

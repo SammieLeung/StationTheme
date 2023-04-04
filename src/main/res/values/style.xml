@@ -72,6 +72,7 @@
 
   </style>
 
+
   <style name="Station.Widget.SpinnerItem" >
     <item name="android:gravity">center</item>
     <item name="android:paddingLeft">15dp</item>
@@ -86,6 +87,10 @@
     <item name="android:minHeight">53dp</item>
     <item name="android:paddingLeft">15dp</item>
     <item name="android:paddingRight">15dp</item>
+  </style>
+
+  <style name="Station.Widget.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+    <item name="android:indeterminateDrawable">@drawable/station_progress</item>
   </style>
 
 
