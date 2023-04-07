@@ -79,6 +79,7 @@
 
     <!--    ####Spinner####-->
     <attr name="stationPopupWindowCornerRadius" format="dimension" />
+    <attr name="stationSpinnerTextSize" format="dimension"/>
     <!--    ########-->
 
     <!--    ####image src####-->

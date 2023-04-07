@@ -61,7 +61,6 @@
   </style>
 
   <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">
-    <item name="android:textSize">@dimen/t1</item>
     <item name="android:minHeight">60dp</item>
     <item name="android:textFontWeight">300</item>
     <item name="android:textColor">@color/station_button_text_color_state</item>
@@ -74,6 +73,7 @@
 
 
   <style name="Station.Widget.SpinnerItem" >
+    <item name="android:textSize">?attr/stationSpinnerTextSize</item>
     <item name="android:gravity">center</item>
     <item name="android:paddingLeft">15dp</item>
     <item name="android:paddingRight">15dp</item>
@@ -83,8 +83,9 @@
   </style>
 
   <style name="Station.Widget.DropDownItem">
+    <item name="android:textSize">?attr/stationSpinnerTextSize</item>
     <item name="android:textAlignment">center</item>
-    <item name="android:minHeight">53dp</item>
+    <item name="android:minHeight">60dp</item>
     <item name="android:paddingLeft">15dp</item>
     <item name="android:paddingRight">15dp</item>
   </style>

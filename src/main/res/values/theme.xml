@@ -9,6 +9,7 @@
     <item name="station3dBtnCornerRadius">@dimen/station_default_radius</item>
     <item name="stationPopupWindowCornerRadius">@dimen/station_default_radius</item>
     <item name="stationEditTextCornerRadius">@dimen/station_default_radius</item>
+    <item name="stationSpinnerTextSize">@dimen/t1</item>
   </style>
 
   <style name="Base.Station.Light">
