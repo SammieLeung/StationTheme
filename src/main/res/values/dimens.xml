@@ -17,5 +17,5 @@
 
   <dimen name="station_default_radius">8dp</dimen>
   <dimen name="station_dialog_default_radius">15dp</dimen>
-
+  <dimen name="station_checkbox_button_size">30dp</dimen>
 </resources>

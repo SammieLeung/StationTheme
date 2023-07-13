@@ -10,6 +10,7 @@
     <item name="stationPopupWindowCornerRadius">@dimen/station_default_radius</item>
     <item name="stationEditTextCornerRadius">@dimen/station_default_radius</item>
     <item name="stationSpinnerTextSize">@dimen/t1</item>
+    <item name="stationCheckboxButtonSize">@dimen/station_checkbox_button_size</item>
   </style>
 
   <style name="Base.Station.Light">
@@ -58,6 +59,7 @@
     <item name="editTextStyle">?android:attr/editTextStyle</item>
     <item name="switchStyle">?android:attr/switchStyle</item>
     <item name="spinnerStyle">?android:attr/spinnerStyle</item>
+    <item name="checkboxStyle">?android:attr/checkboxStyle</item>
   </style>
 
   <style name="StationTheme" parent="StationTheme.Compat">
@@ -68,6 +70,7 @@
     <item name="android:imageButtonStyle">@style/Station.Widget.ImageButton</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
     <item name="android:textSize">@dimen/t1</item>
+    <item name="android:checkboxStyle">@style/Station.Widget.CheckBox</item>
   </style>
 
   <style name="StationTheme.Dialog">

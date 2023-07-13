@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_checked="true" android:state_focused="true">
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_checked_focus" />
+        </layer-list>
+    </item>
+
+    <item android:state_checked="true" android:state_hovered="true">
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_checked_focus" />
+        </layer-list>
+    </item>
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_checked" />
+        </layer-list>
+    </item>
+
+    <item android:state_hovered="true">
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_unchecked_focus" />
+        </layer-list>
+    </item>
+    <item android:state_focused="true">
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_unchecked_focus" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:width="?attr/stationCheckboxButtonSize" android:height="?attr/stationCheckboxButtonSize" android:drawable="@drawable/vector_checkbox_state_unchecked" />
+        </layer-list>
+    </item>
+</selector>

@@ -55,6 +55,12 @@
 
   </style>
 
+  <style name="Station.Widget.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+    <item name="buttonCompat">@null</item>
+    <item name="android:button">@drawable/station_checkbox_button_background</item>
+
+  </style>
+
   <style name="Station.Widget.ImageButton" parent="Widget.AppCompat.ImageButton">
     <item name="android:background">@android:color/transparent</item>
     <item name="android:tint">@color/station_img_src_color_tint</item>
@@ -79,7 +85,7 @@
     <item name="android:paddingRight">15dp</item>
     <item name="android:drawableTint">@color/station_button_text_color_state</item>
     <item name="android:drawablePadding">8dp</item>
-    <item name="android:drawableRight">@drawable/icon_dropdown</item>
+    <item name="android:drawableRight">@drawable/vector_dropdown</item>
   </style>
 
   <style name="Station.Widget.DropDownItem">

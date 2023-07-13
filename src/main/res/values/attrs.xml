@@ -1,92 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <declare-styleable name="StationTheme">
-    <!--    默认文字颜色-->
-    <attr name="stationTextColor" format="color|reference" />
+    <declare-styleable name="StationTheme">
+        <!--    默认文字颜色-->
+        <attr name="stationTextColor" format="color|reference" />
 
-    <!--#### Dialog ####-->
-    <!--    背景圆角-->
-    <attr name="stationDialogCornerRadius" format="dimension" />
-    <!--    背景颜色-->
-    <attr name="stationDialogColor" format="color|reference" />
-    <!--########-->
+        <!--#### Dialog ####-->
+        <!--    背景圆角-->
+        <attr name="stationDialogCornerRadius" format="dimension" />
+        <!--    背景颜色-->
+        <attr name="stationDialogColor" format="color|reference" />
+        <!--########-->
 
-    <!--###### Button ######-->
-    <attr name="stationButtonTextColor" format="color" />
-    <attr name="stationButtonDisableTextColor" format="color" />
-    <attr name="stationButtonDefaultColor" format="color" />
-    <attr name="stationButtonDisableColor" format="color" />
-    <attr name="stationButtonFocusColor" format="color" />
-    <attr name="stationButtonPressColor" format="color" />
+        <!--###### Button ######-->
+        <attr name="stationButtonTextColor" format="color" />
+        <attr name="stationButtonDisableTextColor" format="color" />
+        <attr name="stationButtonDefaultColor" format="color" />
+        <attr name="stationButtonDisableColor" format="color" />
+        <attr name="stationButtonFocusColor" format="color" />
+        <attr name="stationButtonPressColor" format="color" />
 
-    <!--#### 3D Button ####-->
-    <!--    默认-->
-    <attr name="station3dButtonDefaultColor" format="color|reference" />
-    <!--    不可用-->
-    <attr name="station3dButtonDisableColor" format="color|reference" />
-    <!--    焦点起始-->
-    <attr name="station3dButtonFocusStartColor" format="color" />
-    <!--    焦点结束-->
-    <attr name="station3dButtonFocusEndColor" format="color" />
-    <!--    按下起始-->
-    <attr name="station3dButtonPressStartColor" format="color" />
-    <!--    按下结束-->
-    <attr name="station3dButtonPressEndColor" format="color" />
-    <!--    立体按钮的圆角-->
-    <attr name="station3dBtnCornerRadius" format="dimension" />
-    <!--########-->
-    <!--############-->
+        <!--#### 3D Button ####-->
+        <!--    默认-->
+        <attr name="station3dButtonDefaultColor" format="color|reference" />
+        <!--    不可用-->
+        <attr name="station3dButtonDisableColor" format="color|reference" />
+        <!--    焦点起始-->
+        <attr name="station3dButtonFocusStartColor" format="color" />
+        <!--    焦点结束-->
+        <attr name="station3dButtonFocusEndColor" format="color" />
+        <!--    按下起始-->
+        <attr name="station3dButtonPressStartColor" format="color" />
+        <!--    按下结束-->
+        <attr name="station3dButtonPressEndColor" format="color" />
+        <!--    立体按钮的圆角-->
+        <attr name="station3dBtnCornerRadius" format="dimension" />
+        <!--########-->
+        <!--############-->
 
-    <!--#### Prompt Window ####-->
-    <attr name="stationPromptWindowColor" format="color|reference" />
+        <!--#### Prompt Window ####-->
+        <attr name="stationPromptWindowColor" format="color|reference" />
 
-    <!--#### EditText ####-->
-    <!--    圆角-->
-    <attr name="stationEditTextCornerRadius" format="dimension" />
-    <!--##背景##-->
-    <!--    默认-->
-    <attr name="stationEditTextDefaultColor" format="color|reference" />
-    <!--    焦点描边-->
-    <attr name="stationEditTextFocusBorderColor" format="color|reference" />
-    <!--    不可用-->
-    <attr name="stationEditTextDisableColor" format="color|reference" />
-    <!--    ####-->
-    <!--    文字颜色-->
-    <attr name="stationEditTextDefaultTextColor" format="color" />
-    <attr name="stationEditTextDisableTextColor" format="color" />
+        <!--#### EditText ####-->
+        <!--    圆角-->
+        <attr name="stationEditTextCornerRadius" format="dimension" />
+        <!--##背景##-->
+        <!--    默认-->
+        <attr name="stationEditTextDefaultColor" format="color|reference" />
+        <!--    焦点描边-->
+        <attr name="stationEditTextFocusBorderColor" format="color|reference" />
+        <!--    不可用-->
+        <attr name="stationEditTextDisableColor" format="color|reference" />
+        <!--    ####-->
+        <!--    文字颜色-->
+        <attr name="stationEditTextDefaultTextColor" format="color" />
+        <attr name="stationEditTextDisableTextColor" format="color" />
 
-    <!--    提示文字颜色-->
-    <attr name="stationEditTextTextColorHint" format="color" />
-    <attr name="stationEditTextDisableTextColorHint" format="color" />
-    <!--    ########-->
+        <!--    提示文字颜色-->
+        <attr name="stationEditTextTextColorHint" format="color" />
+        <attr name="stationEditTextDisableTextColorHint" format="color" />
+        <!--    ########-->
 
-    <!--    ####滑动开关####-->
-    <!--    ##开关##-->
-    <!--    正常-->
-    <attr name="stationThumbColor" format="color" />
-    <!--    开关不可用-->
-    <attr name="stationThumbDisableColor" format="color" />
-    <!--    ##轨道##-->
-    <!--    焦点边界-->
-    <attr name="stationTrackFocusBorderColor" format="color" />
-    <!--    关闭-->
-    <attr name="stationTrackOffColor" format="color" />
-    <!--    开启-->
-    <attr name="stationTrackOnColor" format="color" />
-    <!--    不可用-->
-    <attr name="stationTrackDisableColor" format="color" />
-    <!--    ########-->
+        <!--    ####滑动开关####-->
+        <!--    ##开关##-->
+        <!--    正常-->
+        <attr name="stationThumbColor" format="color" />
+        <!--    开关不可用-->
+        <attr name="stationThumbDisableColor" format="color" />
+        <!--    ##轨道##-->
+        <!--    焦点边界-->
+        <attr name="stationTrackFocusBorderColor" format="color" />
+        <!--    关闭-->
+        <attr name="stationTrackOffColor" format="color" />
+        <!--    开启-->
+        <attr name="stationTrackOnColor" format="color" />
+        <!--    不可用-->
+        <attr name="stationTrackDisableColor" format="color" />
+        <!--    ########-->
 
-    <!--    ####Spinner####-->
-    <attr name="stationPopupWindowCornerRadius" format="dimension" />
-    <attr name="stationSpinnerTextSize" format="dimension"/>
-    <!--    ########-->
+        <!--    ####CheckBox####-->
+        <!--    勾选框图标size-->
+        <attr name="stationCheckboxButtonSize" format="dimension" />
+        <!--    ########-->
 
-    <!--    ####image src####-->
-    <attr name="stationImageSrcPressColor" format="color" />
-    <attr name="stationImageSrcFocusColor" format="color" />
-    <attr name="stationImageSrcDefaultColor" format="color" />
+        <!--    ####Spinner####-->
+        <attr name="stationPopupWindowCornerRadius" format="dimension" />
+        <attr name="stationSpinnerTextSize" format="dimension" />
+        <!--    ########-->
 
-    <!--########-->
-  </declare-styleable>
+        <!--    ####image src####-->
+        <attr name="stationImageSrcPressColor" format="color" />
+        <attr name="stationImageSrcFocusColor" format="color" />
+        <attr name="stationImageSrcDefaultColor" format="color" />
+
+        <!--########-->
+    </declare-styleable>
 </resources>

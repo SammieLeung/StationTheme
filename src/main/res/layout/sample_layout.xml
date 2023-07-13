@@ -1,190 +1,204 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:app="http://schemas.android.com/apk/res-auto"
-  xmlns:tools="http://schemas.android.com/tools"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:background="#7A000000"
-  android:gravity="center"
-  android:theme="@style/StationTheme">
-
-  <androidx.appcompat.widget.LinearLayoutCompat
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A000000"
     android:gravity="center"
-    android:orientation="vertical">
+    android:theme="@style/StationTheme">
 
-    <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="Button" />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
 
-    <Button
-      style="@style/Station.Widget.Button"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="Button" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Button" />
 
-    <androidx.appcompat.widget.AppCompatButton
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="AppCompatButton" />
+        <Button
+            style="@style/Station.Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Button" />
 
-    <EditText
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:hint="EidtText" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="AppCompatButton" />
 
-    <androidx.appcompat.widget.AppCompatEditText
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:hint="AppCompatEditText" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="EidtText" />
 
-    <EditText
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:enabled="false"
-      android:hint="不可用hint" />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="AppCompatEditText" />
 
-    <EditText
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:enabled="false"
-      android:text="不可用正文" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:hint="不可用hint" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="100" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:text="不可用正文" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="200" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="100" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="300" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="200" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="400" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="300" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="400" />
 
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="500" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="600" />
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="500" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="700" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="600" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="800" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="700" />
 
-    <TextView
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="阿里巴巴普惠体"
-      android:textFontWeight="900" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="800" />
 
-    <TextView
-      style="@style/Station.Widget.PromptWindow"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="提示弹窗背景" />
-  </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="阿里巴巴普惠体"
+            android:textFontWeight="900" />
 
-  <androidx.appcompat.widget.LinearLayoutCompat
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="100dp"
+        <TextView
+            style="@style/Station.Widget.PromptWindow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提示弹窗背景" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
-    android:orientation="vertical">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
 
-    <androidx.appcompat.widget.SwitchCompat
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:enabled="false"
-      android:text="禁用状态" />
+        android:orientation="vertical">
 
-    <androidx.appcompat.widget.SwitchCompat
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="SwitchCompat" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:text="禁用状态" />
 
-    <Switch
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"
-      android:text="Switch" />
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="SwitchCompat" />
 
-    <Spinner
-      android:id="@+id/spinner_1"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginBottom="10dp"/>
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Switch" />
 
+        <CheckBox
+            android:text="CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:checked="true" />
 
-    <androidx.appcompat.widget.AppCompatSpinner
-      android:id="@+id/spinner_2"
-      android:layout_width="200dp"
-      android:layout_marginBottom="10dp"
-      android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:text="CheckBox"
 
-    <ImageButton
-      android:layout_marginBottom="20dp"
-      android:src="@drawable/icon_dropdown"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
 
-    <com.king.view.circleprogressview.CircleProgressView
-      android:id="@+id/cpv"
-      app:cpvShowTick="false"
-      app:cpvStrokeWidth="8dp"
-      app:cpvLabelTextSize="29sp"
-      app:cpvLabelTextColor="@android:color/white"
-      app:cpvNormalColor="#FF1A232C"
-      app:cpvProgressColor="#96428d"
-      app:cpvProgress="50"
-      app:cpvCirclePadding="0dp"
-      android:layout_marginBottom="20dp"
-      android:layout_width="120dp"
-      android:layout_height="120dp"/>
-
-    <ProgressBar
-      android:layout_width="120dp"
-      android:layout_height="120dp"/>
+        <Spinner
+            android:id="@+id/spinner_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
 
 
-  </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/vector_dropdown" />
+
+        <com.king.view.circleprogressview.CircleProgressView
+            android:id="@+id/cpv"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="20dp"
+            app:cpvCirclePadding="0dp"
+            app:cpvLabelTextColor="@android:color/white"
+            app:cpvLabelTextSize="29sp"
+            app:cpvNormalColor="#FF1A232C"
+            app:cpvProgress="50"
+            app:cpvProgressColor="#96428d"
+            app:cpvShowTick="false"
+            app:cpvStrokeWidth="8dp" />
+
+        <ProgressBar
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>
