@@ -149,18 +149,18 @@
             android:text="Switch" />
 
         <CheckBox
-            android:text="CheckBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:checked="true" />
+            android:checked="true"
+            android:text="CheckBox" />
 
         <androidx.appcompat.widget.AppCompatCheckBox
-            android:text="CheckBox"
-
             android:layout_width="wrap_content"
+
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:text="CheckBox" />
 
         <Spinner
             android:id="@+id/spinner_1"
@@ -175,11 +175,23 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp" />
 
-        <ImageButton
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:src="@drawable/vector_dropdown" />
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vector_dropdown" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/vector_dropdown" />
+        </LinearLayout>
+
 
         <com.king.view.circleprogressview.CircleProgressView
             android:id="@+id/cpv"
