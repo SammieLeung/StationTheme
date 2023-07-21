@@ -100,5 +100,9 @@
     <item name="android:indeterminateDrawable">@drawable/station_progress</item>
   </style>
 
+  <style name="Station.Widget.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+    <item name="android:progressDrawable">@drawable/station_progress_horizontal</item>
+  </style>
+
 
 </resources>

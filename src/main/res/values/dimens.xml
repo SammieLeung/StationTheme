@@ -18,4 +18,7 @@
   <dimen name="station_default_radius">8dp</dimen>
   <dimen name="station_dialog_default_radius">15dp</dimen>
   <dimen name="station_checkbox_button_size">30dp</dimen>
+
+  <dimen name="station_progress_corner_radius">4dp</dimen>
+  <dimen name="station_progress_bar_height">4dp</dimen>
 </resources>

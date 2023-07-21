@@ -11,6 +11,7 @@
     <item name="stationEditTextCornerRadius">@dimen/station_default_radius</item>
     <item name="stationSpinnerTextSize">@dimen/t1</item>
     <item name="stationCheckboxButtonSize">@dimen/station_checkbox_button_size</item>
+    <item name="stationProgressBarCornerRadius">@dimen/station_progress_corner_radius</item>
   </style>
 
   <style name="Base.Station.Light">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <!--  规范颜色-->
+
   <color name="main_focus">#634eb7</color>
   <color name="main_press">#4C389B</color>
   <color name="main_default">#323254</color>
@@ -53,4 +54,6 @@
   <color name="station_img_src_focus_color">#634EB7</color>
   <color name="station_img_src_press_color">#4C389B</color>
 
+  <color name="station_progress_bar_color">#322F57</color>
+  <color name="station_progress_bar_progress_color">#634EB7</color>
 </resources>

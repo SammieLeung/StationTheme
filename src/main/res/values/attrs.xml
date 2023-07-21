@@ -92,6 +92,8 @@
         <attr name="stationImageSrcFocusColor" format="color" />
         <attr name="stationImageSrcDefaultColor" format="color" />
 
+        <!--    ####条形进度条圆角####-->
+        <attr name="stationProgressBarCornerRadius" format="dimension" />
         <!--########-->
     </declare-styleable>
 </resources>
