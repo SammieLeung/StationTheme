@@ -62,8 +62,8 @@
   </style>
 
   <style name="Station.Widget.ImageButton" parent="Widget.AppCompat.ImageButton">
-    <item name="android:background">@android:color/transparent</item>
-    <item name="android:tint">@color/station_img_src_color_tint</item>
+    <item name="android:background">@drawable/station_button_background</item>
+    <item name="android:backgroundTint">@color/station_button_background_tint</item>
   </style>
 
   <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">

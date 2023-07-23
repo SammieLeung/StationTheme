@@ -61,6 +61,7 @@
     <item name="switchStyle">?android:attr/switchStyle</item>
     <item name="spinnerStyle">?android:attr/spinnerStyle</item>
     <item name="checkboxStyle">?android:attr/checkboxStyle</item>
+    <item name="imageButtonStyle">?android:attr/imageButtonStyle</item>
   </style>
 
   <style name="StationTheme" parent="StationTheme.Compat">
@@ -69,6 +70,7 @@
     <item name="android:spinnerStyle">@style/Station.Widget.Spinner</item>
     <item name="android:switchStyle">@style/Station.Widget.Switch</item>
     <item name="android:imageButtonStyle">@style/Station.Widget.ImageButton</item>
+    <item name="android:imageWellStyle">@style/Station.Widget.ImageButton</item>
     <item name="android:fontFamily">@font/alibaba_puhuiti_2</item>
     <item name="android:textSize">@dimen/t1</item>
     <item name="android:checkboxStyle">@style/Station.Widget.CheckBox</item>
