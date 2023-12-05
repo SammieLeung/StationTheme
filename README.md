@@ -1,6 +1,6 @@
 # Station OS 通用主题
 
-![图片alt](./img.png "截图")
+![图片alt](./ScreenShoot/sample.png "sample")
 
 ### 主题
 <文件：<b>theme.xml</b>>
@@ -23,10 +23,26 @@
 <style name="Theme.PluginsCenter" parent="StationTheme" />
 
 ```
-**关于Dialog(仅支持DialogFragment)**
+**StationDialogFragment**
 
-
-在DialogFragment的页面使用主题StationTheme.Dialog，这将修改按钮主题，从平面按钮修改为3D立体按钮
+```java
+            StationDialogFragment dialogFragment = new StationDialogFragment.Builder(getBaseContext())
+                    .setTitle("标题和自定义View")
+                    .setCustomView(R.layout.station_custom_view)
+                    .setMessage("这是一个消息对话框")
+                    .setNegativeButton("取消", (dialog, which) -> {
+                        dialog.dismiss();
+                    })
+                    .setPositiveButton("确定", (dialog, which) -> {
+                        dialog.dismiss();
+                    })
+                    .setNeutralButton("中立", (dialog, which) -> {
+                        dialog.dismiss();
+                    })
+                    .build();
+            dialogFragment.show(SampleActivity.this.getSupportFragmentManager(), "dialog");
+```
+![图片alt](./ScreenShoot/stationdialog.png "StationDialogFragment")
 
 **字体**
 
