@@ -185,6 +185,18 @@
       android:layout_width="120dp"
       android:layout_height="120dp"/>
 
+    <Button
+      android:id="@+id/messageDialog"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="10dp"
+      android:text="MessageAlertDialog" />
+    <Button
+        android:id="@+id/addCustomViewDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="CustomAndMessageDialog" />
 
   </androidx.appcompat.widget.LinearLayoutCompat>
 </LinearLayout>

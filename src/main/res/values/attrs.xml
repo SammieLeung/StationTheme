@@ -86,7 +86,6 @@
     <attr name="stationImageSrcPressColor" format="color" />
     <attr name="stationImageSrcFocusColor" format="color" />
     <attr name="stationImageSrcDefaultColor" format="color" />
-
     <!--########-->
   </declare-styleable>
 </resources>

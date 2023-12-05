@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <!--  最大标题的文字-->
-  <dimen name="h1">39sp</dimen>
-  <!--  常规标题文字-->
-  <dimen name="h2">35sp</dimen>
-  <!--  导航栏标题、重要列表标题-->
-  <dimen name="h3">27sp</dimen>
-  <!--  常用的图片文字标题、按钮文字-->
-  <dimen name="t1">23sp</dimen>
-  <!--  重要文字详情文字描述内容-->
-  <dimen name="t2">21sp</dimen>
-  <!--  次要文字详情文字描述内容-->
-  <dimen name="t3">19sp</dimen>
-  <!--  标签文字内容、最小文字-->
-  <dimen name="t4">17sp</dimen>
+    <!--  最大标题的文字-->
+    <dimen name="h1">39sp</dimen>
+    <!--  常规标题文字-->
+    <dimen name="h2">35sp</dimen>
+    <!--  导航栏标题、重要列表标题-->
+    <dimen name="h3">27sp</dimen>
+    <!--  常用的图片文字标题、按钮文字-->
+    <dimen name="t1">23sp</dimen>
+    <!--  重要文字详情文字描述内容-->
+    <dimen name="t2">21sp</dimen>
+    <!--  次要文字详情文字描述内容-->
+    <dimen name="t3">19sp</dimen>
+    <!--  标签文字内容、最小文字-->
+    <dimen name="t4">17sp</dimen>
 
-  <dimen name="station_default_radius">8dp</dimen>
-  <dimen name="station_dialog_default_radius">15dp</dimen>
+    <dimen name="station_default_radius">8dp</dimen>
+    <dimen name="station_dialog_default_radius">15dp</dimen>
 
+    <dimen name="station_dialog_max_width">960dp</dimen>
+    <dimen name="station_dialog_max_height">540dp</dimen>
+    <dimen name="station_dialog_min_width">100dp</dimen>
+    <dimen name="station_dialog_min_height">100dp</dimen>
 </resources>

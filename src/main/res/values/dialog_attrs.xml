@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StationDialogTheme">
+        <attr name="dialogMaxWidth" format="dimension" />
+        <attr name="dialogMaxHeight" format="dimension" />
+        <attr name="dialogMinWidth" format="dimension" />
+        <attr name="dialogMinHeight" format="dimension" />
+    </declare-styleable>
+</resources>

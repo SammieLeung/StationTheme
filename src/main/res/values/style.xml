@@ -90,9 +90,8 @@
     <item name="android:paddingRight">15dp</item>
   </style>
 
-  <style name="Station.Widget.ProgressBar" parent="Widget.AppCompat.ProgressBar">
-    <item name="android:indeterminateDrawable">@drawable/station_progress</item>
+  <style name="StationTheme.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
+      <item name="android:background">@drawable/station_dialog_background</item>
   </style>
-
 
 </resources>
