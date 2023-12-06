@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <style name="Station" />
+    <style name="Station" />
 
-  <style name="Station.Widget" />
+    <style name="Station.Widget" />
 
-  <style name="Station.Widget.3D.Button" parent="Widget.AppCompat.Button">
-    <item name="android:textSize">@dimen/t1</item>
-    <item name="android:minHeight">53dp</item>
-    <item name="android:minWidth">195dp</item>
-    <item name="android:textFontWeight">300</item>
-    <item name="android:paddingStart">18dp</item>
-    <item name="android:paddingEnd">18dp</item>
-    <item name="android:textColor">@color/station_button_text_color_state</item>
-    <item name="android:background">@drawable/station_3d_button_background</item>
-  </style>
+    <style name="Station.Widget.3D.Button" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">@dimen/t1</item>
+        <item name="android:minHeight">53dp</item>
+        <item name="android:minWidth">195dp</item>
+        <item name="android:textFontWeight">300</item>
+        <item name="android:paddingStart">18dp</item>
+        <item name="android:paddingEnd">18dp</item>
+        <item name="android:textColor">@color/station_button_text_color_state</item>
+        <item name="android:background">@drawable/station_3d_button_background</item>
+    </style>
 
-  <style name="Station.Widget.Button" parent="Station.Widget.3D.Button">
-    <item name="android:background">@drawable/station_button_background</item>
-    <item name="android:backgroundTint">@color/station_button_background_tint</item>
+    <style name="Station.Widget.Button" parent="Station.Widget.3D.Button">
+        <item name="android:background">@drawable/station_button_background</item>
+        <item name="android:backgroundTint">@color/station_button_background_tint</item>
 
-  </style>
+    </style>
 
-  <style name="Station.Widget.EditText" parent="Widget.AppCompat.EditText">
-    <item name="android:textCursorDrawable">@drawable/station_text_cursor</item>
-    <item name="android:background">@drawable/station_edittext_background</item>
-    <item name="android:minHeight">60dp</item>
-    <item name="android:paddingStart">28dp</item>
-    <item name="android:paddingEnd">28dp</item>
-    <item name="android:textColorHint">@color/station_edittext_text_color_hint_state</item>
-    <item name="android:textColor">@color/station_edittext_text_color_state</item>
-    <item name="android:textSize">@dimen/t1</item>
-  </style>
+    <style name="Station.Widget.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@drawable/station_text_cursor</item>
+        <item name="android:background">@drawable/station_edittext_background</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:paddingStart">28dp</item>
+        <item name="android:paddingEnd">28dp</item>
+        <item name="android:textColorHint">@color/station_edittext_text_color_hint_state</item>
+        <item name="android:textColor">@color/station_edittext_text_color_state</item>
+        <item name="android:textSize">@dimen/t1</item>
+    </style>
 
-  <style name="Station.Widget.PromptWindow" parent="StationTheme">
-    <item name="android:background">@drawable/station_prompt_window_background</item>
-    <item name="android:textSize">@dimen/t4</item>
-    <item name="android:textFontWeight">300</item>
-    <item name="android:gravity">center</item>
-    <item name="android:paddingTop">18dp</item>
-    <item name="android:paddingBottom">18dp</item>
-    <item name="android:paddingStart">20dp</item>
-    <item name="android:paddingRight">20dp</item>
-  </style>
+    <style name="Station.Widget.PromptWindow" parent="StationTheme">
+        <item name="android:background">@drawable/station_prompt_window_background</item>
+        <item name="android:textSize">@dimen/t4</item>
+        <item name="android:textFontWeight">300</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
 
-  <style name="Station.Widget.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
-    <item name="android:thumb">@drawable/station_thumb</item>
-    <item name="track">@drawable/station_track</item>
-    <item name="android:track">@drawable/station_track</item>
-    <item name="android:background">@null</item>
-    <item name="android:switchPadding">20dp</item>
-    <item name="switchPadding">20dp</item>
-    <item name="android:showText">false</item>
+    <style name="Station.Widget.Switch" parent="Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:thumb">@drawable/station_thumb</item>
+        <item name="track">@drawable/station_track</item>
+        <item name="android:track">@drawable/station_track</item>
+        <item name="android:background">@null</item>
+        <item name="android:switchPadding">20dp</item>
+        <item name="switchPadding">20dp</item>
+        <item name="android:showText">false</item>
 
-  </style>
+    </style>
 
-  <style name="Station.Widget.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
-    <item name="buttonCompat">@null</item>
-    <item name="android:button">@drawable/station_checkbox_button_background</item>
+    <style name="Station.Widget.CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="buttonCompat">@null</item>
+        <item name="android:button">@drawable/station_checkbox_button_background</item>
 
-  </style>
+    </style>
 
-  <style name="Station.Widget.ImageButton" parent="Widget.AppCompat.ImageButton">
-    <item name="android:background">@drawable/station_button_background</item>
-    <item name="android:backgroundTint">@color/station_button_background_tint</item>
-  </style>
+    <style name="Station.Widget.ImageButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/station_button_background</item>
+        <item name="android:backgroundTint">@color/station_button_background_tint</item>
+    </style>
 
-  <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">
-    <item name="android:minHeight">60dp</item>
-    <item name="android:textFontWeight">300</item>
-    <item name="android:textColor">@color/station_button_text_color_state</item>
-    <item name="android:background">@drawable/station_button_background</item>
-    <item name="android:backgroundTint">@color/station_button_background_tint</item>
-    <item name="android:popupBackground">@drawable/station_popup_window_background</item>
-    <item name="android:gravity">center</item>
+    <style name="Station.Widget.Spinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:minHeight">60dp</item>
+        <item name="android:textFontWeight">300</item>
+        <item name="android:textColor">@color/station_button_text_color_state</item>
+        <item name="android:background">@drawable/station_button_background</item>
+        <item name="android:backgroundTint">@color/station_button_background_tint</item>
+        <item name="android:popupBackground">@drawable/station_popup_window_background</item>
+        <item name="android:gravity">center</item>
 
-  </style>
+    </style>
 
 
-  <style name="Station.Widget.SpinnerItem" >
-    <item name="android:textSize">?attr/stationSpinnerTextSize</item>
-    <item name="android:gravity">center</item>
-    <item name="android:paddingLeft">15dp</item>
-    <item name="android:paddingRight">15dp</item>
-    <item name="android:drawableTint">@color/station_button_text_color_state</item>
-    <item name="android:drawablePadding">8dp</item>
-    <item name="android:drawableRight">@drawable/vector_dropdown</item>
-  </style>
+    <style name="Station.Widget.SpinnerItem">
+        <item name="android:textSize">?attr/stationSpinnerTextSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:drawableTint">@color/station_button_text_color_state</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableRight">@drawable/vector_dropdown</item>
+    </style>
 
-  <style name="Station.Widget.DropDownItem">
-    <item name="android:textSize">?attr/stationSpinnerTextSize</item>
-    <item name="android:textAlignment">center</item>
-    <item name="android:minHeight">60dp</item>
-    <item name="android:paddingLeft">15dp</item>
-    <item name="android:paddingRight">15dp</item>
-  </style>
+    <style name="Station.Widget.DropDownItem">
+        <item name="android:textSize">?attr/stationSpinnerTextSize</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:minHeight">60dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
 
-  <style name="Station.Widget.ProgressBar" parent="Widget.AppCompat.ProgressBar">
-    <item name="android:indeterminateDrawable">@drawable/station_progress</item>
-  </style>
+    <style name="StationTheme.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@drawable/station_dialog_background</item>
+    </style>
 
-  <style name="Station.Widget.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
-    <item name="android:progressDrawable">@drawable/station_progress_horizontal</item>
-  </style>
+    <style name="Station.Widget.ProgressBar.Horizontal" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/station_progress_horizontal</item>
+    </style>
 
 
 </resources>
