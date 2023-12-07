@@ -77,6 +77,7 @@
     <style name="StationTheme" parent="StationTheme.Compat">
         <item name="android:buttonStyle">@style/Station.Widget.Button</item>
         <item name="android:editTextStyle">@style/Station.Widget.EditText</item>
+        <item name="android:checkboxStyle">@style/Station.Widget.CheckBox</item>
         <item name="android:spinnerStyle">@style/Station.Widget.Spinner</item>
         <item name="android:switchStyle">@style/Station.Widget.Switch</item>
         <item name="android:imageButtonStyle">@style/Station.Widget.ImageButton</item>
