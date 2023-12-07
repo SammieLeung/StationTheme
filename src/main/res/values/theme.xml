@@ -88,7 +88,7 @@
         <item name="android:dialogTheme">@style/StationTheme.Dialog</item>
     </style>
 
-    <style name="StationTheme.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+    <style name="StationTheme.Dialog" parent="ThemeOverlay.AppCompat.Dialog">
         <item name="android:buttonStyle">@style/Station.Widget.3D.Button</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/transparent</item>
